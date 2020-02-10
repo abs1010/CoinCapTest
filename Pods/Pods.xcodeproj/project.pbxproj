@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1513EE186088EBFF97A0D8193F38B83B /* Pods-CoinCapTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C233079D7FAECDC616B5CB0A9EAB2C /* Pods-CoinCapTestTests-dummy.m */; };
+		193DBDE6BE30A698896A33F440B64A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		34ED55C249F66AE8AF99449F706A7068 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3A76E421A00ACAF457A94228FB1CB62D /* Pods-CoinCapTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC16F02899A83A551840AA47FFCFA03C /* Pods-CoinCapTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEBFA2A5A0939308DAD0CFC662C37AC5 /* Pods-CoinCapTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 719BAE1E33605A73710E29542C93495A /* Pods-CoinCapTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77F17960683DEF6D0D48B7ED9676A5C /* Pods-CoinCapTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6928E4E9120B340D9DF950CC62F8DA2 /* Pods-CoinCapTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		006ABC6245437B0683BC22BF1A0C1B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B7A383BC8C5D167B069830EC475EA72;
+			remoteInfo = "Pods-CoinCapTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F195640E12DE95B604A8783C0DFC44B /* Pods_CoinCapTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoinCapTest.framework; path = "Pods-CoinCapTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16448B7C1830A45E073EEA4FB9EFBAD6 /* Pods-CoinCapTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinCapTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5381F4F9D8CB121A5CDFB3905061D17E /* Pods-CoinCapTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinCapTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CE4FFE648EEC31ED682AFCE07BB5A39 /* Pods-CoinCapTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinCapTest.release.xcconfig"; sourceTree = "<group>"; };
+		6CFEE10AC58D2AB674478AF7F8BA54F7 /* Pods-CoinCapTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinCapTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		719BAE1E33605A73710E29542C93495A /* Pods-CoinCapTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinCapTest-umbrella.h"; sourceTree = "<group>"; };
+		75C9F451A7191E802CB8864C0FA726AA /* Pods-CoinCapTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinCapTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8565EA67FD368C3733B3BD04D2E75D88 /* Pods-CoinCapTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinCapTest-Info.plist"; sourceTree = "<group>"; };
+		8BCB55CF7E051E04117F12E4755BC2D0 /* Pods_CoinCapTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoinCapTestTests.framework; path = "Pods-CoinCapTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DF4F9E70C32C441DD3A36BAAE9843C /* Pods-CoinCapTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinCapTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6928E4E9120B340D9DF950CC62F8DA2 /* Pods-CoinCapTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinCapTest-dummy.m"; sourceTree = "<group>"; };
+		CB234863F31AC12816C759D26E5B03CD /* Pods-CoinCapTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoinCapTest.modulemap"; sourceTree = "<group>"; };
+		D34A92387C445EEE2B6E6044B7420922 /* Pods-CoinCapTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinCapTestTests-Info.plist"; sourceTree = "<group>"; };
+		D87C3129A6B408E873BBF494B2BE1547 /* Pods-CoinCapTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoinCapTestTests.modulemap"; sourceTree = "<group>"; };
+		E0C233079D7FAECDC616B5CB0A9EAB2C /* Pods-CoinCapTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinCapTestTests-dummy.m"; sourceTree = "<group>"; };
+		E1615D715B53B9049FEC028428A3D135 /* Pods-CoinCapTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinCapTest.debug.xcconfig"; sourceTree = "<group>"; };
+		FC16F02899A83A551840AA47FFCFA03C /* Pods-CoinCapTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinCapTestTests-umbrella.h"; sourceTree = "<group>"; };
+		FE800A238807265463F6EB5197233513 /* Pods-CoinCapTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinCapTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341DA6D38D98CA7ED1709D6482B4379B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193DBDE6BE30A698896A33F440B64A5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B44C91002B57546A2ED0EB090A973FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ED55C249F66AE8AF99449F706A7068 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C7EBE0BA39BBD73396843D3C8D8BB5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3292DC65F5399F8A2A8666EF16B81500 /* Pods-CoinCapTest */,
+				9E2FF2A943E9D9948965F64BBE23AF25 /* Pods-CoinCapTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3292DC65F5399F8A2A8666EF16B81500 /* Pods-CoinCapTest */ = {
+			isa = PBXGroup;
+			children = (
+				CB234863F31AC12816C759D26E5B03CD /* Pods-CoinCapTest.modulemap */,
+				6CFEE10AC58D2AB674478AF7F8BA54F7 /* Pods-CoinCapTest-acknowledgements.markdown */,
+				96DF4F9E70C32C441DD3A36BAAE9843C /* Pods-CoinCapTest-acknowledgements.plist */,
+				C6928E4E9120B340D9DF950CC62F8DA2 /* Pods-CoinCapTest-dummy.m */,
+				8565EA67FD368C3733B3BD04D2E75D88 /* Pods-CoinCapTest-Info.plist */,
+				719BAE1E33605A73710E29542C93495A /* Pods-CoinCapTest-umbrella.h */,
+				E1615D715B53B9049FEC028428A3D135 /* Pods-CoinCapTest.debug.xcconfig */,
+				6CE4FFE648EEC31ED682AFCE07BB5A39 /* Pods-CoinCapTest.release.xcconfig */,
+			);
+			name = "Pods-CoinCapTest";
+			path = "Target Support Files/Pods-CoinCapTest";
+			sourceTree = "<group>";
+		};
+		5E6926D7779EC8491F4DDF296EF6D6D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F195640E12DE95B604A8783C0DFC44B /* Pods_CoinCapTest.framework */,
+				8BCB55CF7E051E04117F12E4755BC2D0 /* Pods_CoinCapTestTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2FF2A943E9D9948965F64BBE23AF25 /* Pods-CoinCapTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87C3129A6B408E873BBF494B2BE1547 /* Pods-CoinCapTestTests.modulemap */,
+				5381F4F9D8CB121A5CDFB3905061D17E /* Pods-CoinCapTestTests-acknowledgements.markdown */,
+				75C9F451A7191E802CB8864C0FA726AA /* Pods-CoinCapTestTests-acknowledgements.plist */,
+				E0C233079D7FAECDC616B5CB0A9EAB2C /* Pods-CoinCapTestTests-dummy.m */,
+				D34A92387C445EEE2B6E6044B7420922 /* Pods-CoinCapTestTests-Info.plist */,
+				FC16F02899A83A551840AA47FFCFA03C /* Pods-CoinCapTestTests-umbrella.h */,
+				16448B7C1830A45E073EEA4FB9EFBAD6 /* Pods-CoinCapTestTests.debug.xcconfig */,
+				FE800A238807265463F6EB5197233513 /* Pods-CoinCapTestTests.release.xcconfig */,
+			);
+			name = "Pods-CoinCapTestTests";
+			path = "Target Support Files/Pods-CoinCapTestTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5E6926D7779EC8491F4DDF296EF6D6D8 /* Products */,
+				27C7EBE0BA39BBD73396843D3C8D8BB5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07F5AD2B5C7E91AB9C6233CC65F91287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBFA2A5A0939308DAD0CFC662C37AC5 /* Pods-CoinCapTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53822985A3A118D1C2053DBB38659E66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A76E421A00ACAF457A94228FB1CB62D /* Pods-CoinCapTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		249632D2F4BE14DD7334E25B8FC64094 /* Pods-CoinCapTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79F593E02B3A591661E577BB8B3D370 /* Build configuration list for PBXNativeTarget "Pods-CoinCapTestTests" */;
+			buildPhases = (
+				53822985A3A118D1C2053DBB38659E66 /* Headers */,
+				3E240D0CC277738874431C6B03D2159E /* Sources */,
+				6B44C91002B57546A2ED0EB090A973FA /* Frameworks */,
+				8E7831DB5A5B956918718ECE978678E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8F60D553D41BD5A689BD8103D2D47C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-CoinCapTestTests";
+			productName = "Pods-CoinCapTestTests";
+			productReference = 8BCB55CF7E051E04117F12E4755BC2D0 /* Pods_CoinCapTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B7A383BC8C5D167B069830EC475EA72 /* Pods-CoinCapTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38154DDFD42302CA1DB00322A0378C47 /* Build configuration list for PBXNativeTarget "Pods-CoinCapTest" */;
+			buildPhases = (
+				07F5AD2B5C7E91AB9C6233CC65F91287 /* Headers */,
+				CF8AC48CBB106CB2B19792482A15D834 /* Sources */,
+				341DA6D38D98CA7ED1709D6482B4379B /* Frameworks */,
+				95F73828DBC5E74E8135B09D3DAC045B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoinCapTest";
+			productName = "Pods-CoinCapTest";
+			productReference = 0F195640E12DE95B604A8783C0DFC44B /* Pods_CoinCapTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5E6926D7779EC8491F4DDF296EF6D6D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B7A383BC8C5D167B069830EC475EA72 /* Pods-CoinCapTest */,
+				249632D2F4BE14DD7334E25B8FC64094 /* Pods-CoinCapTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7831DB5A5B956918718ECE978678E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F73828DBC5E74E8135B09D3DAC045B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E240D0CC277738874431C6B03D2159E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1513EE186088EBFF97A0D8193F38B83B /* Pods-CoinCapTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8AC48CBB106CB2B19792482A15D834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77F17960683DEF6D0D48B7ED9676A5C /* Pods-CoinCapTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8F60D553D41BD5A689BD8103D2D47C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CoinCapTest";
+			target = 8B7A383BC8C5D167B069830EC475EA72 /* Pods-CoinCapTest */;
+			targetProxy = 006ABC6245437B0683BC22BF1A0C1B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		122F140EC05C85A85D70EF29D8B42A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE800A238807265463F6EB5197233513 /* Pods-CoinCapTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinCapTestTests/Pods-CoinCapTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinCapTestTests/Pods-CoinCapTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AF6FC2D7E00EBC28DD60A24153E8C1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1615D715B53B9049FEC028428A3D135 /* Pods-CoinCapTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinCapTest/Pods-CoinCapTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinCapTest/Pods-CoinCapTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B3365FED6046A8453C9A7DC08641FCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE4FFE648EEC31ED682AFCE07BB5A39 /* Pods-CoinCapTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinCapTest/Pods-CoinCapTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinCapTest/Pods-CoinCapTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FD8E50195D2B15910FEAC77B09A5BF23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16448B7C1830A45E073EEA4FB9EFBAD6 /* Pods-CoinCapTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinCapTestTests/Pods-CoinCapTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinCapTestTests/Pods-CoinCapTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38154DDFD42302CA1DB00322A0378C47 /* Build configuration list for PBXNativeTarget "Pods-CoinCapTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF6FC2D7E00EBC28DD60A24153E8C1D /* Debug */,
+				9B3365FED6046A8453C9A7DC08641FCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79F593E02B3A591661E577BB8B3D370 /* Build configuration list for PBXNativeTarget "Pods-CoinCapTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD8E50195D2B15910FEAC77B09A5BF23 /* Debug */,
+				122F140EC05C85A85D70EF29D8B42A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
